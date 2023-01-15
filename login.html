@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign up</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 0;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(Frame.jpg);
+            color: white;   
+            font-family: 'Netflix sans', Arial, Helvetica, sans-serif;
+            display: flex;
+        }
+        h1{
+            color: red;
+        }
+        .container{
+            width: auto;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding-left: 40px; 
+        }
+        .container h2{
+            text-align: left;
+            margin-top: 30px;
+        }
+        input{
+            width: 90%;
+            background-color: #333333;
+            height: 40px;
+            color: #8C8C8C;
+;
+        }
+        .empn{
+            margin-bottom: 10px;
+        }
+        .pw{
+            margin-bottom: 20px;
+        }
+        .btn{
+            width: 90%;
+            background-color: red;
+            height: 40px;
+            color: white;
+        }
+        footer{
+            width: 100;
+            height: 258px;
+            background-color: black 0.5;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>NETFLIX</h1>
+    <div class="container">
+        <h2>Sign in</h2>
+        <input type="text" class="empn" placeholder="Email or phone number">
+        <br/>
+        <input type="password" class="pw" placeholder="password"> <br/>
+        <button class="btn">Sign in</button>
+        <input type="checkbox"><p class="rm">Remember me</p>
+        <p class="nh">Need help?</p>
+        <div class="container2">
+           <img class="fb" src="./facebook.jpg" alt="facebook"> <a href="">Login with Facebook</a>
+           <p class="p1">New to netflix?</p><p class="p2">Sign up now</p>
+           <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p> <a href="">Learn more</a>
+        </div>
+    </div>
+    <footer>
+        <p>Questions? contact us</p>
+        <ul>
+            <li>FAQ</li>
+            <li>Help center</li>
+            <li>Terms of use</li>
+            <li>Privacy</li>
+            <li>Cookie preferences</li>
+            <li>Corporate Information</li>
+        </ul>
+    </footer>
+</body>
+</html>
